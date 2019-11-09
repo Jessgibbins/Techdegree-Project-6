@@ -113,7 +113,7 @@ const checkWin = () => {
 
     } else if (missed > 4) {
         overlay.className = 'lose';
-        overlay.style.display = '';
+        overlay.style.display = 'flex';
         heading.textContent = 'You Lost';
         startBtn.textContent = 'Play Again';
 };
